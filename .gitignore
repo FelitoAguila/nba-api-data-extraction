@@ -11,6 +11,7 @@ wheels/
 
 # Data and cache
 data/
+logs/
 nba_cache/
 *.parquet
 *.sqlite
