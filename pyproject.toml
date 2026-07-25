@@ -1,7 +1,7 @@
 [project]
-name = "nba-api-extraction"
+name = "nba-api-data-extraction"
 version = "0.1.0"
-description = "Add your description here"
+description = "Extract NBA data from nba_api and store it as Parquet files"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

@@ -4,7 +4,7 @@ import logging
 import pandas as pd
 from tqdm import tqdm
 
-from nba_teams_extractor import get_nba_players, get_player_career_stats
+from data_extractor import get_nba_players, get_player_career_stats
 from utils import DATA_DIR, setup_logging
 
 log = logging.getLogger(__name__)

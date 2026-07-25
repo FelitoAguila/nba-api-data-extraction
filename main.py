@@ -1,4 +1,4 @@
-from nba_api_data_extractor import get_nba_teams, get_nba_players, get_all_career_stats
+from data_extractor import get_nba_teams, get_nba_players, get_all_career_stats
 from utils import DATA_DIR, save_to_parquet, setup_logging
 import pandas as pd
 
