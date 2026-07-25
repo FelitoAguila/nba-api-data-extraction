@@ -23,7 +23,7 @@ This is a work in progress, so more data will be downloaded in future commits.
 ## Project structure
 
 ```
-nba-api-extraction/
+nba-api-data-extraction/
 ├── main.py                     # Orchestrator -- fetches all data and saves parquet files
 ├── data_extractor.py           # Core functions for fetching NBA data via nba_api
 ├── retry_missing.py            # Fetches only players missing from the existing parquet
@@ -42,8 +42,8 @@ You need git, uv and python 3.12 installed in your machine.
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/your-username/nba-api-extraction.git
-cd nba-api-extraction
+git clone https://github.com/your-username/nba-api-data-extraction.git
+cd nba-api-data-extraction
 uv sync
 ```
 
