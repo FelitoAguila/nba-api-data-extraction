@@ -22,3 +22,6 @@ nba_cache/
 
 # GCP-SA keys
 *.json 
+
+# Notebooks
+notebooks/
