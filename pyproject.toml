@@ -19,4 +19,5 @@ dependencies = [
 [dependency-groups]
 dev = [
     "ipykernel>=7.3.0",
+    "polars>=1.43.1",
 ]
