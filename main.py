@@ -1,4 +1,4 @@
-from data_extractor import get_nba_teams, get_nba_players, get_all_career_stats
+from data_extractor import get_nba_teams, get_nba_players, get_all_career_stats, get_all_game_logs
 from utils import DATA_DIR, save_to_parquet, setup_logging
 import pandas as pd
 
@@ -14,3 +14,5 @@ if __name__ == "__main__":
     # Career stats (this one takes 30-60 min)
     career_stats = get_all_career_stats()
     save_to_parquet(career_stats, f"{DATA_DIR}/player_career_stats_by_season.parquet")
+    game_stats = get_all_game_logs()
+    save_to_parquet(game_stats, "data/nba_game_logs_regular_season.parquet")
